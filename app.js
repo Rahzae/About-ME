@@ -77,5 +77,22 @@ if (nsDakota === 'yes' || nsDakota === 'y') {
   alert('I didn\'t get that');
 }
 
+//user inputs guess for how many times ive made career change. Giving a prompt in return. 
+let answer = 5;
+
+
+while (!answer) {
+  while (answer === ' ' || answer === null); {
+    answer = prompt('incorrect, try again.')
+  }
+}
+
+let changes = parseInt(prompt("How many career changes total so far"));
+if (changes === answer) {
+  alert('thats right')
+} else if (changes !== answer) {
+  alert('try again')
+}
+console.log()
 
 
