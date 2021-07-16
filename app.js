@@ -1,10 +1,10 @@
 'use strict'
 console.log('hello codefellows')
 
-// question
+//question
 let placesVisit = prompt('Have you ever been to Argentina?');
 console.log(placesVisit);
-//Allow different letter case without changing orig input.
+// Allow different letter case without changing orig input.
 let places = placesVisit.toLowerCase();
 //user input lowercased
 console.log(places);
@@ -32,8 +32,6 @@ if (movie === 'yes' || movie === 'y') {
   alert('I didn\'t get that');
 }
 
-let bhc = prompt('Have you seen any of the Beverly hills cops');
-console.log(bhc);
 
 let bhcSeen = bhc.toLowerCase();
 
@@ -79,20 +77,20 @@ if (nsDakota === 'yes' || nsDakota === 'y') {
 
 //user inputs guess for how many times ive made career change. Giving a prompt in return. 
 let answer = 5;
-
-
-while (!answer) {
-  while (answer === ' ' || answer === null); {
-    answer = prompt('incorrect, try again.')
+let maxAttempts = 4;
+for (let i = 0; i < maxAttempts; i++) {
+  let changes = prompt('How many career changes total so far');
+  //let intChanges = parseInt('changes');
+  if (changes == answer) {
+    alert('thats right');
+    break;
+  } else if (changes !== answer) {
+    alert('try again');
+  }
+  if (changes !== answer && i === 3) {
+    alert('nope its ' + answer);
   }
 }
 
-let changes = parseInt(prompt("How many career changes total so far"));
-if (changes === answer) {
-  alert('thats right')
-} else if (changes !== answer) {
-  alert('try again')
-}
-console.log()
-
+console.log('changes');
 
