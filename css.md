@@ -1,0 +1,80 @@
+body {
+  font-family: 'Qahiri', sans-serif;
+  background-color: #ffffff;
+  
+}
+
+
+h1, h2 {
+  text-align: center;
+  
+
+}
+
+
+#mass {
+  background-color: rgb(253, 253, 252);
+  width: 55%;
+  margin: 0 auto;
+  border: 5px solid #00509d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 20px 30px 10px #343d47;
+  align-items:flex-end;
+} 
+
+
+
+article img {
+max-width: 100%;
+max-height: 50%;
+position:relative
+}
+
+#img div  {
+  width: 200px;
+  height: 200px;
+  text-align:center;
+  flex-basis: 600px;
+}
+
+#togo {
+  background-color: rgb(253, 253, 252);
+  width: 65%;
+  margin: 0 auto;
+  border: 5px solid #00509d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 20px 30px 10px #343d47;
+  align-items:flex-end;
+}
+
+#movies {
+  background-color: bisque;
+  width: 90%;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+  .Navbar {
+  background-color: #4CAF50; /* Green */
+  border:thin;
+  border-radius: 10px;
+  color: rgb(245, 10, 10);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+header {
+  
+}
